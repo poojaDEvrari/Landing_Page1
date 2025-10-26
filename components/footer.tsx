@@ -67,18 +67,12 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-3 text-background/70">
-              <li className="flex items-center gap-2">
-                <Phone size={16} />
-                <span>+91 XXXX XXXX XX</span>
-              </li>
+             
               <li className="flex items-center gap-2">
                 <Mail size={16} />
                 <span>info@kanwarji.in</span>
               </li>
-              <li className="flex items-start gap-2">
-                <MapPin size={16} className="mt-1" />
-                <span>Your Location</span>
-              </li>
+             
             </ul>
           </div>
         </div>
